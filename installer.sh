@@ -208,8 +208,8 @@ EOF
 ##
 # Pull supervisor image
 info "Install supervisor Docker container"
-docker pull "$HASSIO_DOCKER:$HASSIO_VERSION"
-docker tag "$HASSIO_DOCKER:$HASSIO_VERSION" "$HASSIO_DOCKER:latest"
+# docker pull "$HASSIO_DOCKER:$HASSIO_VERSION"
+# docker tag "$HASSIO_DOCKER:$HASSIO_VERSION" "$HASSIO_DOCKER:latest"
 
 ##
 # Install Hass.io Supervisor
